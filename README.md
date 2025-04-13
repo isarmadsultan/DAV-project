@@ -38,8 +38,25 @@ This is a course project for the **Data Analysis and Visualization (DAV)** subje
 
 ---
 
-## 📌 How to Run the Notebook
+📦 Phase 3: Data Preprocessing
+In this phase, the dataset was cleaned and transformed to prepare it for modeling:
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/DAV-Project.git
+✅ Missing Values
+The column wip was removed due to over 42% missing values.
+
+Remaining missing values were handled by dropping incomplete rows.
+
+✅ Duplicate Records
+Duplicate entries were checked and removed.
+
+✅ Outlier Handling
+Outliers in incentive, over_time, and idle_time were removed using the IQR method.
+
+✅ Data Transformation
+Categorical variables (day, quarter, department, team) were encoded using Label Encoding.
+
+Numerical features were scaled using Min-Max Scaling.
+
+This completed the data cleaning pipeline and ensured consistency, normality, and model-readiness of the dataset.
+
+---
