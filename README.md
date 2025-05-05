@@ -60,3 +60,9 @@ Numerical features were scaled using Min-Max Scaling.
 This completed the data cleaning pipeline and ensured consistency, normality, and model-readiness of the dataset.
 
 ---
+## 📈 Conclusion Summary
+
+- Features like targeted productivity and quarter show strong correlation with actual productivity.
+- Linear Regression achieved an R² score of __ and RMSE of __.
+- Classification model predicted productivity levels with an accuracy of __%.
+- Further improvement could be achieved by feature engineering, tuning, or using ensemble methods.
